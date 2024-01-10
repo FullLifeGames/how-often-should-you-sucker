@@ -22,6 +22,9 @@
         <div v-if="showOdds">
           <h2>You should sucker:</h2>
           <p>{{ whenSucker }} Times</p>
+          <p class="fst-italic">
+            You have a winning chance of {{ pp }}/{{ Number(pp) + 1 }}!
+          </p>
         </div>
       </div>
     </b-container>
